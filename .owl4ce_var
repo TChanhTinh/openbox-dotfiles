@@ -1,5 +1,5 @@
 #-------------------------------------------------------------------------#
-# owl4ce/dotfiles global variables                                        #
+# owl4ce/dotfiles global variables - tchanhtinh fork                      #
 #-------------------------------------------------------------------------#
 # Does not affect to all files. For example tint2rc, ob rc.xml,           #
 # obmenu perl, etc will use absolute path and using ~ directly.           #
@@ -96,7 +96,7 @@ MPD_TCD="$NCMPCPP_SCRIPTS_DIR/track-change-detector"
 # TINT2 EXECUTOR                                                          #
 #-------------------------------------------------------------------------#
 
-INT_ETH="enp4s0"
+INT_ETH="enp2s0"
 INT_WIFI="wlp3s0"
 
 TEMP_DEV="thermal_zone0"
@@ -108,11 +108,10 @@ TEMP_DEV="thermal_zone0"
 #-------------------------------------------------------------------------#
 
 SAVE_DIR="$HOME/Pictures"
-FRAME_COLOR="#ffffff" # RGBA supported
 TIMER_SEC="5"
 
 #-------------------------------------------------------------------------#
 # XAUTOLOCK - 5 means 5 minutes                                           #
 #-------------------------------------------------------------------------#
 
-AUTOLOCK_MINUTE="5"
+AUTOLOCK_MINUTE="15"

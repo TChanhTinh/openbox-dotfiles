@@ -29,7 +29,7 @@ if [[ $CHK_MINMOD = *"minimal"* ]]; then
         
         printf "${CYAN}---${NC}"
         printf "\nEnter File Index ID ${MAGENTA}[${CYAN}1${MAGENTA}] ${NC}to ${MAGENTA}[${CYAN}%s${MAGENTA}]${NC}: " "$n"
-        read -n 1 -r num
+        read -n 2 -r num
         num=$(printf '%s\n' "$num" | tr -dc '[:digit:]')
         
         if [ "$num" -le 0 ] || [ "$num" -gt "$n" ]
@@ -148,7 +148,7 @@ else
 
         printf "${CYAN}---${NC}"
         printf "\nEnter File Index ID ${MAGENTA}[${CYAN}1${MAGENTA}] ${NC}to ${MAGENTA}[${CYAN}%s${MAGENTA}]${NC}: " "$n"
-        read -n 1 -r num
+        read -n 2 -r num
         num=$(printf '%s\n' "$num" | tr -dc '[:digit:]')
 
         if [ "$num" -le 0 ] || [ "$num" -gt "$n" ]

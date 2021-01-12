@@ -80,7 +80,7 @@ source $ZSH/oh-my-zsh.sh
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
-# export LANG=en_US.UTF-8
+export LANG=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
@@ -126,7 +126,6 @@ alias nanosu="$PRIV nano"
 alias nvimsu="$PRIV nvim"
 
 # Color toys aliases
-alias 256colors2="~/.color-toys/256colors2.pl"
 alias bloks="~/.color-toys/bloks"
 alias colortest="~/.color-toys/colortest"
 alias colortest-slim="~/.color-toys/colortest-slim"
@@ -136,3 +135,5 @@ alias panes="~/.color-toys/panes"
 alias pipes1="~/.color-toys/pipes1"
 alias pipes2="~/.color-toys/pipes2"
 alias pipes2-slim="~/.color-toys/pipes2-slim"
+
+export PATH=$HOME/.npm-packages/bin:$PATH
