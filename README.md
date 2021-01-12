@@ -84,6 +84,21 @@ Here are some details about my setup
   - New Wallpapers
   
 </details>
+
+<details open>
+  
+  <summary><strong>Forked changes<strong><summary>
+  
+  - Customized minimal tint2 for both dark/light versions
+  - Wallpaper change script now support up to 99 wallpapers
+  - Custom Openbox-keybinds with psudo-tilling windows (Super + Shift + W/A/S/D to tilling window)
+<a>
+   <img src="https://i.imgur.com/cbqs4Xc.png" width="400px" align="center">
+   <img src="https://i.imgur.com/Ko69370.png" width="400px" align="left">
+</a>	
+
+  
+</details>
   
 ## :rice_scene:  Setup
 This is how to install these dotfiles for automatic settings OpenboxWM custom environment.
