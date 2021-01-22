@@ -22,8 +22,8 @@
 ##  
 ### :octocat: Hi there! Thanks for visiting! <img alt="" align="right" src="https://badges.pufler.dev/visits/owl4ce/dotfiles?style=flat-square&label=&color=fa74b2&logo=GitHub&logoColor=white&labelColor=373e4d"/>
 
-<a href="https://www.deviantart.com/owl4ce/art/U-n-t-i-t-l-e-d-865257047">
-  <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/072e191f-a0a5-4be2-bc7a-55eb140b254f/deb5glz-9cbd5bec-efeb-4631-a87a-13380633cc48.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvMDcyZTE5MWYtYTBhNS00YmUyLWJjN2EtNTVlYjE0MGIyNTRmXC9kZWI1Z2x6LTljYmQ1YmVjLWVmZWItNDYzMS1hODdhLTEzMzgwNjMzY2M0OC5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.PScw6CPguJWLtacMxqLr_ZM2FhzqJyjt-4Z4c3LANIs" alt="owl4ce/dotfiles.u n t i t l e d" align="right" width="400px"/>
+<a href="https://github.com/owl4ce/dotfiles/releases/tag/3.1">
+  <img src="https://user-images.githubusercontent.com/53987136/105129801-70846680-5b18-11eb-95b4-2794c679a68d.png" alt="owl4ce/dotfiles.minimal" align="right" width="400px"/>
 </a>
 
 This is my personal configuration for my favorite openbox window manager and some applications too.
@@ -43,7 +43,7 @@ Here are some details about my setup
 - **File Manager**                 : [Thunar](https://wiki.archlinux.org/index.php/Thunar) :bookmark: customized sidebar & icon!
 - **Text Editor**                  : [Geany](https://www.geany.org/), [nano](https://www.nano-editor.org/), [neovim](https://neovim.io/)
 
-## :gift: Changelogs <img alt="" align="right" src="https://img.shields.io/github/repo-size/owl4ce/dotfiles?style=flat-square&label=Dotfiles%20Size&color=cf8ef4&labelColor=373e4d"/>
+## :gift: Changelogs <img alt="" align="right" src="https://img.shields.io/github/repo-size/owl4ce/dotfiles?style=flat-square&label=Repo%20Size&color=cf8ef4&labelColor=373e4d"/>
 
 <a href="https://www.deviantart.com/owl4ce/art/Joyful-Desktop-v3-862516153">
   <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/072e191f-a0a5-4be2-bc7a-55eb140b254f/de9ipq1-b1122b6b-6d37-43d6-a727-cf63df935e6d.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvMDcyZTE5MWYtYTBhNS00YmUyLWJjN2EtNTVlYjE0MGIyNTRmXC9kZTlpcHExLWIxMTIyYjZiLTZkMzctNDNkNi1hNzI3LWNmNjNkZjkzNWU2ZC5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.tEYdZ6q3iLK_X3f4gQer7Sn23nWGk_lA9JsGThIIbis" alt="owl4ce/dotfiles" align="right" width="400px"/>
@@ -77,7 +77,7 @@ Here are some details about my setup
 <details open>
   <summary><strong>v3.1</strong></summary>
   
-  - **Screenshot Script**: Rounded corners
+  - **Screenshot Script**: Rounded corners & Quality
   - Terminal UI improvements, particularly font size
   - Bug fixes and improvements
   - Rounded picom as default
@@ -229,6 +229,8 @@ Please read [this](https://crispgm.com/page/the-fascinating-arch-linux-rice.html
   
   </details>
 
+  <br>
+  
   <details>
   <summary><strong>Another Linux Distribution</strong></summary>
   
@@ -281,9 +283,10 @@ Please read [this](https://crispgm.com/page/the-fascinating-arch-linux-rice.html
      $ sudo ln -s ~/.icons/Papirus-Dark-Custom /usr/share/icons/Papirus-Dark-Custom
      ```
      > **Why I need to link icons to user system resources?**  
-       That's needed by dunst in order to display most of icon from notification that spawned by application.  
+       That's needed by dunst in order to display most of icon from notification that spawned by application.
+     >
      > **Why not just move it directly to user system resources?**  
-       Actually it's up to you, but I recommend sticking to `~/.icons` plus link to `/usr` because I'm using Arch on top of other linux distributions with same homedir. More effective than copying icons to both roots.
+       Actually it's up to you, but I recommend sticking to `~/.icons` plus link to `/usr` because I'm using [Arch on top of other linux distributions](https://github.com/owl4ce/archroot) with same homedir. More effective than copying icons to both roots.
      
   </details>
 
@@ -327,50 +330,49 @@ The final step is login into openbox-session, basically login from display manag
 - **SLiM Themes (optional)**
   <details>
   <summary><strong>See</strong></summary>
-    I use SLiM just for lockscreen BTW.
+  
+    <p align="center">I use SLiM just for lockscreen BTW.</p>
   
     <a href="https://www.deviantart.com/owl4ce/art/Floflo-Batik-SLiM-Themes-861519439">
       <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/072e191f-a0a5-4be2-bc7a-55eb140b254f/de8xcnj-d1413505-68ee-49bd-ba72-00cd3f2a2d9e.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvMDcyZTE5MWYtYTBhNS00YmUyLWJjN2EtNTVlYjE0MGIyNTRmXC9kZTh4Y25qLWQxNDEzNTA1LTY4ZWUtNDliZC1iYTcyLTAwY2QzZjJhMmQ5ZS5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.KPhW15Vepsxlr7San7OuBA_oyVfs-k7Bh1hCrbqC528" alt="floflo-batik" align="center" width="100%"/>
     </a>
     
-    Just click on the image above!
+    <p align="center">Just click on the image above!</p>
     
   </details>
 
-- **Google-chrome / Chromium (tip)**
+- **Chromium-based browser (suggested)**
   <details>
   <summary><strong>See</strong></summary>
   
-    <img src="https://i.ibb.co/4sqygH8/2020-10-15-023421-1366x768-scrot.png" alt="google-chrome.thumbnail" align="center" width="100%"/>
-
     **Settings**: `chrome://settings/`
     - Themes: `Use GTK+`
     - `Use system title bar and borders`
-
-    **New Tab**
-    - Extension: [Tabliss - A Beautiful New Tab](https://chrome.google.com/webstore/detail/tabliss-a-beautiful-new-t/hipekcciheckooncpjeljhnekcoolahp?hl=en)
-
-    **Tabliss** -  Widgets Font
-    - Greeting, Message: [Youth Touch DEMO](https://www.dafont.com/youth-touch.font)
-    - Time, Search Box, Weather: [SFNS Display](https://fontsgeek.com/fonts/sfns-display-regular)
+    
+    <a href=""><img src="https://i.ibb.co/qdgXnhR/2021-01-15-070154-1366x768-scrot.png" alt="brave.thumbnail" align="center" width="100%"/></a>
+    <p align="center"><a href="https://brave.com/">Brave</a></p>
 
   </details>
   
-- **Spotify - Spicetify Theme (tip)**
+- **Spotify - Spicetify Theme (suggested)**
   <details>
   <summary><strong>See</strong></summary>
   
+    <a href="https://github.com/owl4ce/spicetify-themes/tree/master/Dribbblish#mechanical">
     <img src="https://raw.githubusercontent.com/owl4ce/spicetify-themes/master/Dribbblish/mechanical.png" alt="spicetify.dribbblish-mechanical" align="center" width="100%"/>
+    </a>
+    <a href="https://github.com/owl4ce/spicetify-themes/tree/master/Dribbblish#eyecandy">
     <img src="https://raw.githubusercontent.com/owl4ce/spicetify-themes/master/Dribbblish/eyecandy.png" alt="spicetify.dribbblish-eyecandy" align="center" width="100%"/>
-  
-    [Dribbblish](https://github.com/owl4ce/spicetify-themes/tree/master/Dribbblish#mechanical)
+    </a>
+    
+    <p align="center">Just click on the image above!</p>
     
   </details>
   
 - **Battery Indicator**  
   Because on the tint2 panel I turned off battery status. Alternatively, install `xfce4-power-manager` and enable system tray icon in `xfce4-power-manager-settings`, then relogin openbox-session.
   
-- **Dunst Action: Default Web Browser (`middle click`)**  
+- **Dunst Action: Default Web Browser `middle click`**  
   [`~/.config/dunst/dunstrc-mech`](./.config/dunst/dunstrc-mech)  
   [`~/.config/dunst/dunstrc-mech-MINMOD`](./.config/dunst/dunstrc-mech-MINMOD)  
   [`~/.config/dunst/dunstrc-eyc`](./.config/dunst/dunstrc-eyc)  
@@ -378,12 +380,33 @@ The final step is login into openbox-session, basically login from display manag
   ```cfg
   ...
   
-  42 browser = chromium
+  42 browser = brave-bin
   
   ...
   ```
   
-- **Screenshots, Tint2 Executor, and Autolock**  
+- **URxvt Action: Default Web Browser `middle click`**  
+  [`~/.Xresources`](./.Xresources)
+  ```cfg
+  ...
+  
+  63 URxvt.url-select.launcher:        brave-bin
+  
+  ...
+  ```
+  [See keybinds](https://github.com/owl4ce/dotfiles/wiki/Keybinds#urxvt)
+  
+- **URxvt Icon**  
+  [`~/.Xresources`](./.Xresources)
+  ```cfg
+  ...
+  
+  17 URxvt.iconFile:                   /home/username/.icons/gladient/term.png
+  
+  ...
+  ```
+
+- **Global Variables**  
   [`~/.owl4ce_var`](./.owl4ce_var)
   ```cfg
   ...
@@ -406,14 +429,20 @@ The final step is login into openbox-session, basically login from display manag
   110 SAVE_DIR="$HOME/Pictures"
   111 FRAME_COLOR="#ffffff" # RGBA supported
   112 TIMER_SEC="5"
-  113 
-  114 #-------------------------------------------------------------------------#
-  115 # XAUTOLOCK - 5 means 5 minutes                                           #
-  116 #-------------------------------------------------------------------------#
-  117 
-  118 AUTOLOCK_MINUTE="5"
-  
-  ...
+  113 QUALITY="100" # 1-100, high value means high size low compression
+  114
+  115 #-------------------------------------------------------------------------#
+  116 # XAUTOLOCK - 5 means 5 minutes                                           #
+  117 #-------------------------------------------------------------------------#
+  118 
+  119 AUTOLOCK_MINUTE="5"
+  120
+  121 #-------------------------------------------------------------------------#
+  122 # BRIGHTNESS & AUDIO (pulseaudio) VOLUME STEPS LEVEL                      #
+  123 #-------------------------------------------------------------------------#
+  124
+  125 AUDIO_STEPS="5" # Real value
+  126 BRIGHTNESS_STEPS="5" # Percentage, 5 means 5%
   ```
   > **TEMP_DEV**: Check here
   > ```bash
@@ -446,19 +475,8 @@ The final step is login into openbox-session, basically login from display manag
   6
   7 parcellite &
   8 #nm-applet &
+  ```
 
-  ```
-  
-- **URxvt Icon**  
-  [`~/.Xresources`](./.Xresources)
-  ```cfg
-  ...
-  
-  17 URxvt.iconFile:                   /home/username/.icons/gladient/term.png
-  
-  ...
-  ```
-  
 - **Neovim**  
   [`~/.config/nvim/`](./.config/nvim/)  
   You know what to do with [Vim-plug](https://github.com/junegunn/vim-plug).
@@ -479,19 +497,40 @@ The final step is login into openbox-session, basically login from display manag
   > **How to use ncmpcpp albumart?**  
   It's easy, put `album|cover|folder|artwork|front.jp?g|png|gif|bmp` into folder with song album. Recommended image size is *500px* ( **1:1** ) or more. [See keybinds](https://github.com/owl4ce/dotfiles/wiki/Keybinds#ncmpcpp)
 
-- **Pulseaudio (without service)**  
+- **Audio Server (without service)**  
   [`~/.config/openbox/autostart`](./.config/openbox/autostart)  
   This is optional for Linux distributions that don't use systemd as their init, actually pulseaudio can be triggered from increasing-decreasing audio volume.
-  ```cfg
-  ...
-  
-  9  # there was once a pulseaudio here
-  10 if [[ $(pstree) = *"pulseaudio"* ]]; then
-  11   pulseaudio --start --log-target=syslog &
-  12 fi
-  
-  ...
-  ```
+  - **Pulseaudio**
+    ```cfg
+    ...
+
+    9  # there was once a pulseaudio here
+    10 [[ "$(pstree)" != *"pulseaudio"* ]] && pulseaudio --start --log-target=syslog &
+
+    ...
+    ```
+    
+    Or if you use [pipewire](https://github.com/PipeWire/pipewire) as pulseaudio.
+  - **Pipewire as Pulseaudio** (low-latency)
+    > More details at [ArchWiki](https://wiki.archlinux.org/index.php/PipeWire#PulseAudio_clients) / [Gentoo Wiki](https://wiki.gentoo.org/wiki/Pipewire#Replacing_PulseAudio).  
+    >  Make sure pulseaudio is uninstalled or disable autospawn.  
+    > `/etc/pulse/client.conf`
+    > ```cfg
+    > ...
+    >
+    > 25  autospawn = no
+    >
+    > ...
+    > ```
+    
+    ```cfg
+    ...
+
+    9  # there was once a pulseaudio here
+    10 [[ "$(pstree)" != *"pipewire"* ]] && pipewire &> /dev/null &
+    
+    ...
+    ```
 
 - **Neofetch Image (w3m)**  
   [`~/.config/neofetch/config.conf`](./.config/neofetch/config.conf`)
@@ -578,9 +617,10 @@ The final step is login into openbox-session, basically login from display manag
   - [...](https://github.com/owl4ce/dotfiles/graphs/contributors)
   
 - **Software**
+  - [Bash](https://www.gnu.org/software/bash/)
   - [Geany](https://www.geany.org/)
-  - [Gpick](https://www.google.com/search?q=gpick)
   - [Gimp](https://www.gimp.org/)
+  - [Gpick](http://www.gpick.org/)
   - [Oomox](https://github.com/themix-project/oomox)
   - etc.
 

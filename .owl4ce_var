@@ -109,9 +109,17 @@ TEMP_DEV="thermal_zone0"
 
 SAVE_DIR="$HOME/Pictures"
 TIMER_SEC="5"
+QUALITY="100" # 1-100, high value means high size low compression
 
 #-------------------------------------------------------------------------#
 # XAUTOLOCK - 5 means 5 minutes                                           #
 #-------------------------------------------------------------------------#
 
 AUTOLOCK_MINUTE="15"
+
+#-------------------------------------------------------------------------#
+# BRIGHTNESS & AUDIO (pulseaudio) VOLUME STEPS LEVEL                      #
+#-------------------------------------------------------------------------#
+
+AUDIO_STEPS="5" # Real value
+BRIGHTNESS_STEPS="5" # Percentage, 5 means 5%
