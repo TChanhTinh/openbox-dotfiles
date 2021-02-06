@@ -31,17 +31,17 @@ This is my personal configuration for my favorite openbox window manager and som
 I hope you understand everything here. :wink:
 
 Here are some details about my setup
-- **WM**                           : [Openbox](http://openbox.org/wiki/Main_Page) :art: 4 changable themes / mode!
-- **DM**                           : [SLiM](https://wiki.archlinux.org/index.php/SLiM) :blossom: beautiful UI! (optional)
-- **Shell**                        : [Zsh](https://wiki.archlinux.org/index.php/zsh) :shell: with [oh my zsh](https://github.com/ohmyzsh/ohmyzsh) framework!
-- **Terminal**                     : [URxvt](https://wiki.archlinux.org/index.php/Rxvt-unicode), [Termite](https://wiki.archlinux.org/index.php/Termite) (supported)
-- **Openbox Menu**                 : [Obmenu-generator](https://github.com/trizen/obmenu-generator)
-- **Panel**                        : [Tint2](https://wiki.archlinux.org/index.php/Tint2) :shaved_ice: material icon font!
-- **Compositor**                   : [Picom](https://github.com/yshui/picom) :doughnut: rounded corners!
-- **Notify Daemon**                : [Dunst](https://wiki.archlinux.org/index.php/Dunst) :leaves: minimalism!
-- **Application Launcher**         : [Rofi](https://github.com/davatorium/rofi) :rocket: apps & sidebar menu!
-- **File Manager**                 : [Thunar](https://wiki.archlinux.org/index.php/Thunar) :bookmark: customized sidebar & icon!
-- **Text Editor**                  : [Geany](https://www.geany.org/), [nano](https://www.nano-editor.org/), [neovim](https://neovim.io/)
+- **Window Manager**               • [Openbox](http://openbox.org/wiki/Main_Page) :art: 4 changable mode!
+- **Display Manager**              • [SLiM](https://wiki.archlinux.org/index.php/SLiM) :blossom: beautiful UI! <kbd>deprecated</kbd>
+- **Shell**                        • [Zsh](https://wiki.archlinux.org/index.php/zsh) :shell: with [oh my zsh](https://github.com/ohmyzsh/ohmyzsh) framework! <kbd>optional</kbd>
+- **Terminal**                     • [URxvt](https://wiki.archlinux.org/index.php/Rxvt-unicode), [Termite](https://wiki.archlinux.org/index.php/Termite) <kbd>available</kbd>
+- **Openbox Menu**                 • [Obmenu-generator](https://github.com/trizen/obmenu-generator)
+- **Panel**                        • [Tint2](https://wiki.archlinux.org/index.php/Tint2) :shaved_ice: material icon font!
+- **Compositor**                   • [Picom](https://github.com/yshui/picom) :doughnut: rounded corners!
+- **Notify Daemon**                • [Dunst](https://wiki.archlinux.org/index.php/Dunst) :leaves: minimalism!
+- **Application Launcher**         • [Rofi](https://github.com/davatorium/rofi) :rocket: blazing fast!
+- **File Manager**                 • [Thunar](https://wiki.archlinux.org/index.php/Thunar) :bookmark: customized sidebar & icon!
+- **GUI & CLI IDE**                • [Geany](https://www.geany.org/), [Neovim](https://neovim.io/)
 
 ## :gift: Changelogs <img alt="" align="right" src="https://img.shields.io/github/repo-size/owl4ce/dotfiles?style=flat-square&label=Repo%20Size&color=cf8ef4&labelColor=373e4d"/>
 
@@ -79,7 +79,7 @@ Here are some details about my setup
   
   - **Screenshot Script**: Rounded corners & Quality
   - Terminal UI improvements, particularly font size
-  - Bug fixes and improvements
+  - Bug fixes and improvements <kbd>keep looking</kbd>
   - Rounded picom as default
   - New Wallpapers
   
@@ -104,8 +104,15 @@ Here are some details about my setup
 This is how to install these dotfiles for automatic settings OpenboxWM custom environment.
 
 ### Introduction of Linux Rice
-Please read [this](https://crispgm.com/page/the-fascinating-arch-linux-rice.html) and [this](https://jie-fang.github.io/blog/basics-of-ricing).
+
+<details>
+<summary>Please read <a target="_blank" href="https://crispgm.com/page/the-fascinating-arch-linux-rice.html">this</a> and <a target="_blank" href="https://jie-fang.github.io/blog/basics-of-ricing">this</a>.</summary>
+  
+<br>
+
 <p align="center"><a href="#introduction-of-linux-rice"><img src="https://i.redd.it/yu0auhxk5nyz.png" alt="*nixporn"/></a></p>
+
+</details>
 
 ### Installation (dependencies)
 > Please adjust your choice about dependencies below, this is my complete setup as I use single OpenboxWM with multimedia application I use.
@@ -116,13 +123,13 @@ Please read [this](https://crispgm.com/page/the-fascinating-arch-linux-rice.html
   <summary><strong>Debian & Ubuntu (and all based distributions)</strong></summary>
   
   ```bash
-  $ sudo apt install rsync python psmisc wireless-tools openbox obconf alsa-utils brightnessctl nitrogen dunst tint2 gsimplecal rofi lxappearance qt5ct qt5-style-plugins lxpolkit xautolock rxvt-unicode xclip scrot thunar thunar-archive-plugin thunar-media-tags-plugin thunar-volman ffmpegthumbnailer tumbler w3m w3m-img geany viewnior mpv mpd mpc ncmpcpp pavucontrol parcellite neofetch htop imagemagick ffmpeg playerctl xsettingsd
+  $ sudo apt install rsync python psmisc wireless-tools openbox obconf alsa-utils brightnessctl nitrogen dunst tint2 gsimplecal rofi lxappearance qt5-style-plugins lxpolkit xautolock rxvt-unicode xclip scrot thunar thunar-archive-plugin thunar-media-tags-plugin thunar-volman ffmpegthumbnailer tumbler w3m w3m-img geany viewnior mpv mpd mpc ncmpcpp pavucontrol parcellite neofetch htop imagemagick ffmpeg playerctl xsettingsd
   ```
 
   </details>
   
   <details>
-  <summary>oh-my-zsh & plugins (optional)</summary>
+  <summary>oh-my-zsh & plugins <kbd>optional</kbd></summary>
   
   - ```bash
     $ sudo apt install zsh
@@ -200,16 +207,16 @@ Please read [this](https://crispgm.com/page/the-fascinating-arch-linux-rice.html
   <details open>
   <summary><strong>Arch Linux (and all based distributions)</strong></summary>
   
-  > Make sure your **AUR Helper** is *yay*.
+  > Make sure your **AUR Helper** is [`yay`](https://github.com/Jguer/yay) or [`paru`](https://github.com/Morganamilo/paru).
   
   ```bash
-  $ yay -S rsync python psmisc wireless_tools openbox obconf alsa-utils brightnessctl nitrogen dunst tint2 gsimplecal rofi lxappearance qt5ct qt5-styleplugins lxsession xautolock rxvt-unicode-patched xclip scrot thunar thunar-archive-plugin thunar-media-tags-plugin thunar-volman ffmpegthumbnailer tumbler w3m geany viewnior mpv mpd mpc ncmpcpp pavucontrol parcellite neofetch htop picom-git obmenu-generator gtk2-perl imagemagick ffmpeg playerctl xsettingsd
+  $ yay -S rsync python psmisc wireless_tools openbox obconf alsa-utils brightnessctl nitrogen dunst tint2 gsimplecal rofi lxappearance qt5-styleplugins lxsession xautolock rxvt-unicode-patched xclip scrot thunar thunar-archive-plugin thunar-media-tags-plugin thunar-volman ffmpegthumbnailer tumbler w3m geany viewnior mpv mpd mpc ncmpcpp pavucontrol parcellite neofetch htop picom-git obmenu-generator gtk2-perl imagemagick ffmpeg playerctl xsettingsd
   ```
 
   </details>
   
   <details>
-  <summary>oh-my-zsh & plugins (optional)</summary>
+  <summary>oh-my-zsh & plugins <kbd>optional</kbd></summary>
   
   - ```bash
     $ sudo pacman -S zsh zsh-completions
@@ -246,6 +253,28 @@ Please read [this](https://crispgm.com/page/the-fascinating-arch-linux-rice.html
   <br>
     
   **Optional**: [betterdiscord](https://betterdiscord.net/), [gimp](https://www.gimp.org/), [nano](https://www.nano-editor.org/) + [nano syntax highlighting](https://github.com/scopatz/nanorc), [neovim](https://neovim.io/), [slim](https://wiki.archlinux.org/index.php/SLiM), [spotify](https://www.spotify.com/us/download/linux/), [termite](https://www.compuphase.com/software_termite.htm), [xfce4-power-manager](https://docs.xfce.org/xfce/xfce4-power-manager/getting-started).
+  
+  **Suggested replacement command**:
+  - `ls` ➜ [`exa`](https://github.com/ogham/exa)  
+  
+    [`~/.zshrc`](./.zshrc)  
+    ```cfg    
+    ...
+    
+    127 alias ls="exa -lgh --icons --group-directories-first"
+    128 alias la="exa -lgha --icons --group-directories-first"
+    
+    ...
+    ```
+    
+  - `cat` ➜ [`bat`](https://github.com/sharkdp/bat)  
+  
+    [`~/.zshrc`](./.zshrc)  
+    ```cfg    
+    ...
+    
+    140 export BAT_THEME="base16"
+    ```
 
 ### Installation (dotfiles)
   
@@ -255,7 +284,7 @@ Please read [this](https://crispgm.com/page/the-fascinating-arch-linux-rice.html
    You can clone or download it as a zip. After that put all files in the **dotfiles** folder to user's home directory.
    > I recommend with rsync
    - ```bash
-     $ git clone https://github.com/owl4ce/dotfiles.git && cd dotfiles
+     $ git clone https://github.com/owl4ce/dotfiles.git && cd dotfiles/
      ```
    - ```bash
      $ rsync -avxHAXP --exclude '.git*' .* ~/
@@ -327,21 +356,21 @@ The final step is login into openbox-session, basically login from display manag
 ---
 
 ### User configuration
-- **SLiM Themes (optional)**
+- **SLiM Themes <kbd>optional</kbd>**
   <details>
   <summary><strong>See</strong></summary>
   
-    <p align="center">I use SLiM just for lockscreen BTW.</p>
-  
-    <a href="https://www.deviantart.com/owl4ce/art/Floflo-Batik-SLiM-Themes-861519439">
-      <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/072e191f-a0a5-4be2-bc7a-55eb140b254f/de8xcnj-d1413505-68ee-49bd-ba72-00cd3f2a2d9e.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvMDcyZTE5MWYtYTBhNS00YmUyLWJjN2EtNTVlYjE0MGIyNTRmXC9kZTh4Y25qLWQxNDEzNTA1LTY4ZWUtNDliZC1iYTcyLTAwY2QzZjJhMmQ5ZS5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.KPhW15Vepsxlr7San7OuBA_oyVfs-k7Bh1hCrbqC528" alt="floflo-batik" align="center" width="100%"/>
-    </a>
+    <p align="center">In fact, I use SLiM just for lockscreen.</p>
+    
+    <p align="center"><a href="https://www.deviantart.com/owl4ce/art/Floflo-Batik-SLiM-Themes-861519439">
+      <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/072e191f-a0a5-4be2-bc7a-55eb140b254f/de8xcnj-d1413505-68ee-49bd-ba72-00cd3f2a2d9e.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvMDcyZTE5MWYtYTBhNS00YmUyLWJjN2EtNTVlYjE0MGIyNTRmXC9kZTh4Y25qLWQxNDEzNTA1LTY4ZWUtNDliZC1iYTcyLTAwY2QzZjJhMmQ5ZS5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.KPhW15Vepsxlr7San7OuBA_oyVfs-k7Bh1hCrbqC528" alt="floflo-batik" align="center"/>
+    </a></p>
     
     <p align="center">Just click on the image above!</p>
     
   </details>
 
-- **Chromium-based browser (suggested)**
+- **Chromium-based web browser <kbd>suggested</kbd>**
   <details>
   <summary><strong>See</strong></summary>
   
@@ -349,30 +378,36 @@ The final step is login into openbox-session, basically login from display manag
     - Themes: `Use GTK+`
     - `Use system title bar and borders`
     
-    <a href=""><img src="https://i.ibb.co/qdgXnhR/2021-01-15-070154-1366x768-scrot.png" alt="brave.thumbnail" align="center" width="100%"/></a>
+    <br>
+    
+    <p align="center"><a href=""><img src="https://i.ibb.co/55fvV30/2021-02-02-153019-1366x768-scrot.png" alt="brave.thumbnail"/></a></p>
     <p align="center"><a href="https://brave.com/">Brave</a></p>
 
   </details>
   
-- **Spotify - Spicetify Theme (suggested)**
+- **Spotify - Spicetify Theme <kbd>suggested</kbd>**
   <details>
   <summary><strong>See</strong></summary>
   
-    <a href="https://github.com/owl4ce/spicetify-themes/tree/master/Dribbblish#mechanical">
-    <img src="https://raw.githubusercontent.com/owl4ce/spicetify-themes/master/Dribbblish/mechanical.png" alt="spicetify.dribbblish-mechanical" align="center" width="100%"/>
-    </a>
-    <a href="https://github.com/owl4ce/spicetify-themes/tree/master/Dribbblish#eyecandy">
-    <img src="https://raw.githubusercontent.com/owl4ce/spicetify-themes/master/Dribbblish/eyecandy.png" alt="spicetify.dribbblish-eyecandy" align="center" width="100%"/>
-    </a>
+    <br>
+    
+    <p align="center"><a href="https://github.com/owl4ce/spicetify-themes/tree/master/Dribbblish#mechanical">
+    <img src="https://raw.githubusercontent.com/owl4ce/spicetify-themes/master/Dribbblish/mechanical.png" alt="spicetify.dribbblish-mechanical"/>
+    </a></p>
+    <p align="center"><a href="https://github.com/owl4ce/spicetify-themes/tree/master/Dribbblish#eyecandy">
+    <img src="https://raw.githubusercontent.com/owl4ce/spicetify-themes/master/Dribbblish/eyecandy.png" alt="spicetify.dribbblish-eyecandy"/>
+    </a></p>
     
     <p align="center">Just click on the image above!</p>
     
   </details>
   
-- **Battery Indicator**  
+- **Battery Indicator <kbd>optional</kbd>**  
   Because on the tint2 panel I turned off battery status. Alternatively, install `xfce4-power-manager` and enable system tray icon in `xfce4-power-manager-settings`, then relogin openbox-session.
   
-- **Dunst Action: Default Web Browser `middle click`**  
+- **Dunst Notification Action - Default Web Browser**  
+  > <kbd>`middle click`</kbd>
+  
   [`~/.config/dunst/dunstrc-mech`](./.config/dunst/dunstrc-mech)  
   [`~/.config/dunst/dunstrc-mech-MINMOD`](./.config/dunst/dunstrc-mech-MINMOD)  
   [`~/.config/dunst/dunstrc-eyc`](./.config/dunst/dunstrc-eyc)  
@@ -385,7 +420,9 @@ The final step is login into openbox-session, basically login from display manag
   ...
   ```
   
-- **URxvt Action: Default Web Browser `middle click`**  
+- **URxvt - Default Web Browser**  
+  > <kbd>`middle click`</kbd>
+  
   [`~/.Xresources`](./.Xresources)
   ```cfg
   ...
@@ -396,7 +433,7 @@ The final step is login into openbox-session, basically login from display manag
   ```
   [See keybinds](https://github.com/owl4ce/dotfiles/wiki/Keybinds#urxvt)
   
-- **URxvt Icon**  
+- **URxvt - Application Icon**  
   [`~/.Xresources`](./.Xresources)
   ```cfg
   ...
@@ -405,7 +442,39 @@ The final step is login into openbox-session, basically login from display manag
   
   ...
   ```
+  
+- **URxvt - Transparent Background <kbd>optional</kbd>**    
+  <details>
+  <summary>If you want to turn on transparency on urxvt, follow this step.</summary>
+  
+    [`~/.Xresources`](./.Xresources)
+  
+    ```cfg
+    ...
 
+    15 URxvt.depth:                      32
+
+    ...
+
+    68 #define black0                    [90]#373E4D
+
+    ...
+
+    84 #define white0                    [90]#F9F9F9
+
+    ...
+    ```
+    `[90]` is the opacity level that will be applied to urxvt. After that do this to reload configuration.
+    ```bash
+    $ xrdb ~/.Xresources
+    ```
+    <p align="center"><img src="https://i.ibb.co/WPM2qBs/2021-01-22-112512-954x467-scrot.png" alt="urxvt.transparency"/></p>
+
+    The issue is when displaying an image from pixmap (pixbuf) it becomes completely transparent except for internalBorder. So if you don't use ncmpcpp albumart, you can ignore it.
+    <p align="center"><img src="https://i.ibb.co/98MfvF8/2021-01-22-113147-581x309-scrot.png" alt="urxvt.transparency.issues"/></p>
+    
+  </details>
+  
 - **Global Variables**  
   [`~/.owl4ce_var`](./.owl4ce_var)
   ```cfg
@@ -449,7 +518,7 @@ The final step is login into openbox-session, basically login from display manag
   > /sys/devices/virtual/thermal/
   > ```
   
-- **Default Supported Apps**  
+- **Available Default Apps**  
   [` ~/.scripts/default-apps/list`](./.scripts/default-apps/list)
   - **Terminal**: urxvt/termite
   - **Lockscreen**: anything
@@ -463,9 +532,9 @@ The final step is login into openbox-session, basically login from display manag
   4 filemanager="thunar"
   ```
   
-- **Tray**  
+- **Tray Icons**  
   [`~/.config/openbox/tray`](./.config/openbox/tray)  
-  An example is turning on `nm-applet`, because by default I don't use it and use [networkmanager_dmenu](./.local/bin/networkmanager_dmenu) instead (<kbd>F12</kbd>). Remove hashtags before nm-applet.
+  An example is turning on `nm-applet`, because by default I don't use it and use [networkmanager_dmenu](./.local/bin/networkmanager_dmenu) instead. Remove hashtags before nm-applet.
   ```cfg
   1 #
   2 # This tray will restart after changing visual mode
@@ -497,7 +566,7 @@ The final step is login into openbox-session, basically login from display manag
   > **How to use ncmpcpp albumart?**  
   It's easy, put `album|cover|folder|artwork|front.jp?g|png|gif|bmp` into folder with song album. Recommended image size is *500px* ( **1:1** ) or more. [See keybinds](https://github.com/owl4ce/dotfiles/wiki/Keybinds#ncmpcpp)
 
-- **Audio Server (without service)**  
+- **Audio Server <kbd>optional</kbd>**  
   [`~/.config/openbox/autostart`](./.config/openbox/autostart)  
   This is optional for Linux distributions that don't use systemd as their init, actually pulseaudio can be triggered from increasing-decreasing audio volume.
   - **Pulseaudio**
@@ -505,14 +574,15 @@ The final step is login into openbox-session, basically login from display manag
     ...
 
     9  # there was once a pulseaudio here
-    10 [[ "$(pstree)" != *"pulseaudio"* ]] && pulseaudio --start --log-target=syslog &
+    10 [[ "$(pstree)" != *"pulseaudio"* ]] && \
+    11 pulseaudio --start --log-target=syslog &> /dev/null &
 
     ...
     ```
     
     Or if you use [pipewire](https://github.com/PipeWire/pipewire) as pulseaudio.
-  - **Pipewire as Pulseaudio** (low-latency)
-    > More details at [ArchWiki](https://wiki.archlinux.org/index.php/PipeWire#PulseAudio_clients) / [Gentoo Wiki](https://wiki.gentoo.org/wiki/Pipewire#Replacing_PulseAudio).  
+  - **Pipewire as Pulseaudio**
+    > Realtime and low-latency. More details at [ArchWiki](https://wiki.archlinux.org/index.php/PipeWire#PulseAudio_clients) / [Gentoo Wiki](https://wiki.gentoo.org/wiki/Pipewire#Replacing_PulseAudio).  
     >  Make sure pulseaudio is uninstalled or disable autospawn.  
     > `/etc/pulse/client.conf`
     > ```cfg
@@ -527,12 +597,13 @@ The final step is login into openbox-session, basically login from display manag
     ...
 
     9  # there was once a pulseaudio here
-    10 [[ "$(pstree)" != *"pipewire"* ]] && pipewire &> /dev/null &
+    10 [[ "$(pstree)" != *"pipewire"* ]] && \
+    11 pipewire &> /dev/null &
     
     ...
     ```
 
-- **Neofetch Image (w3m)**  
+- **Neofetch Image**  
   [`~/.config/neofetch/config.conf`](./.config/neofetch/config.conf`)
   ```cfg
   ...
