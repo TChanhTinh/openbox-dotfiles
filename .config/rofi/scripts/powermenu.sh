@@ -25,11 +25,12 @@ case $chosen in
         $DEFAPPS_EXEC lockscreen
     ;;
     $suspend)
-        $MUSIC_CONTROLLER toggle
-        # SystemD systemctl
-        systemctl suspend
-        # elogind loginctl (NoSystemD)
-        #loginctl suspend
+        [[ "$($MUSIC_CONTROLLER status)" = *"laying"* ]] && $MUSIC_CONTROLLER toggle
+        if command -v "systemctl" &> /dev/null; then
+            systemctl suspend
+        elif command -v "loginctl" &> /dev/null; then
+            loginctl suspend
+        fi
     ;;
     $logout)
         $ROFI_DIR/scripts/promptmenu.sh --yes-command "pkill -KILL -u $(whoami)" --query "      Logout?"

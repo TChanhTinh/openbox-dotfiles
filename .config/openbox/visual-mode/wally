@@ -2,10 +2,10 @@
 source $HOME/.owl4ce_var
 clear
 
-R='\033[1;31m'
-M='\033[1;35m'
-C='\033[1;36m'
-NC='\033[0m'
+R='\e[1;31m'
+M='\e[1;35m'
+C='\e[1;36m'
+NC='\e[0m'
 
 if [[ $CHK_MINMOD = *"minimal"* ]]; then
     if [[ $CHK_VISMOD = *"mechanical"* ]]; then
@@ -17,21 +17,11 @@ if [[ $CHK_MINMOD = *"minimal"* ]]; then
             printf "${M}[${C}%s${M}] ${NC}%s\n" "$n" "$imgfilt"
             eval "img${n}=\$img"
         done
-        
-        if [ "$n" -eq 0 ]
-        then
-            printf >&2 "\n${RED}No images found\n"
-            exit
-        fi
-        
-        printf "${CYAN}---${NC}"
-        printf "\nEnter File Index ID ${MAGENTA}[${CYAN}1${MAGENTA}] ${NC}to ${MAGENTA}[${CYAN}%s${MAGENTA}]${NC}: " "$n"
-        read -n 2 -r num
-        num=$(printf '%s\n' "$num" | tr -dc '[:digit:]')
-        
-        if [ "$num" -le 0 ] || [ "$num" -gt "$n" ]
-        then
-            printf >&2 "\n${RED}Wrong selection\n"
+        printf "${C}---${NC}\nEnter File Index ID ${M}[${C}1${M}] ${NC}to ${M}[${C}%s${M}]${NC}: " "$n"
+        read -r num
+        num="$(printf '%s\n' "$num" | tr -dc '[:digit:]')"
+        if [[ "$num" -le 0 ]] || [[ "$num" -gt "$n" ]]; then
+            printf >&2 "\n${R}Wrong selection\n"
             exit 1
         else
             eval "IMG=\$img${num}"
@@ -43,7 +33,7 @@ if [[ $CHK_MINMOD = *"minimal"* ]]; then
             # Notify success
             $EXNOTIFY_SEND -r 99 -u low -i $NOTIF_WALLY_ICON "Wallpaper" "Applied: <u>$selected</u>"
         fi
-    else
+    elif [[ $CHK_VISMOD = *"eyecandy"* ]]; then
         echo -e "${C}Select wallpaper for Minimal Eyecandy Theme:"
         n=0
         for img in $WALL_DIR/*; do
@@ -53,7 +43,7 @@ if [[ $CHK_MINMOD = *"minimal"* ]]; then
             eval "img${n}=\$img"
         done
         printf "${C}---${NC}\nEnter File Index ID ${M}[${C}1${M}] ${NC}to ${M}[${C}%s${M}]${NC}: " "$n"
-        read -n 1 -r num
+        read -r num
         num="$(printf '%s\n' "$num" | tr -dc '[:digit:]')"
         if [[ "$num" -le 0 ]] || [[ "$num" -gt "$n" ]]; then
             printf >&2 "\n${R}Wrong selection\n"
@@ -80,7 +70,7 @@ else
             eval "img${n}=\$img"
         done
         printf "${C}---${NC}\nEnter File Index ID ${M}[${C}1${M}] ${NC}to ${M}[${C}%s${M}]${NC}: " "$n"
-        read -n 1 -r num
+        read -r num
         num="$(printf '%s\n' "$num" | tr -dc '[:digit:]')"
         if [[ "$num" -le 0 ]] || [[ "$num" -gt "$n" ]]; then
             printf >&2 "\n${R}Wrong selection\n"
@@ -95,7 +85,7 @@ else
             # Notify success
             $EXNOTIFY_SEND -r 99 -u low -i $NOTIF_WALLY_ICON "Wallpaper" "Applied: <u>$selected</u>"
         fi
-    else
+    elif [[ $CHK_VISMOD = *"eyecandy"* ]]; then
         echo -e "${C}Select wallpaper for Eyecandy Theme:"
         n=0
         for img in $WALL_DIR/*; do
@@ -104,21 +94,11 @@ else
             printf "${M}[${C}%s${M}] ${NC}%s\n" "$n" "$imgfilt"
             eval "img${n}=\$img"
         done
-
-        if [ "$n" -eq 0 ]
-        then
-            printf >&2 "\n${RED}No images found\n"
-            exit
-        fi
-
-        printf "${CYAN}---${NC}"
-        printf "\nEnter File Index ID ${MAGENTA}[${CYAN}1${MAGENTA}] ${NC}to ${MAGENTA}[${CYAN}%s${MAGENTA}]${NC}: " "$n"
-        read -n 2 -r num
-        num=$(printf '%s\n' "$num" | tr -dc '[:digit:]')
-
-        if [ "$num" -le 0 ] || [ "$num" -gt "$n" ]
-        then
-            printf >&2 "\n${RED}Wrong selection\n"
+        printf "${C}---${NC}\nEnter File Index ID ${M}[${C}1${M}] ${NC}to ${M}[${C}%s${M}]${NC}: " "$n"
+        read -r num
+        num="$(printf '%s\n' "$num" | tr -dc '[:digit:]')"
+        if [[ "$num" -le 0 ]] || [[ "$num" -gt "$n" ]]; then
+            printf >&2 "\n${R}Wrong selection\n"
             exit 1
         else
             eval "IMG=\$img${num}"

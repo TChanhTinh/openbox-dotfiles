@@ -69,7 +69,7 @@ ZSH_THEME="ar-round"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(zsh-syntax-highlighting zsh-autosuggestions bgnotify)
+plugins=(zsh-autosuggestions zsh-completions zsh-syntax-highlighting bgnotify)
 
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=8'
 setopt INC_APPEND_HISTORY
@@ -110,6 +110,7 @@ alias pacrem="$PRIV pacman -Rcns"
 alias yayupd="yay -Sy"
 alias yayupg="yay -Syu"
 alias emergeins="$PRIV emerge -av"
+alias emergeinmask="$PRIV emerge -av --autounmask=y --autounmask-write"
 alias emergepv="$PRIV emerge -pv"
 alias emergeupd="$PRIV emaint -a sync"
 alias emergeupg="$PRIV emerge -av --update --deep --changed-use @world"
@@ -117,6 +118,7 @@ alias emergedepc="$PRIV emerge --depclean -av"
 alias emergenuse="$PRIV emerge -av --update --newuse --deep @world"
 alias emergecuse="$PRIV emerge -av --update --changed-use --deep @world"
 alias ecleandist="$PRIV eclean-dist --deep"
+alias ecleanpkg="$PRIV eclean-pkg --deep"
 alias ecleankern="$PRIV eclean-kernel -n 3"
 alias rc-service="$PRIV rc-service"
 alias rc-update="$PRIV rc-update"
@@ -124,6 +126,7 @@ alias pingoogle="ping 8.8.8.8"
 alias trimall="$PRIV fstrim -va"
 alias nanosu="$PRIV nano"
 alias nvimsu="$PRIV nvim"
+alias refram="$PRIV bash -c \"sync; echo 3 > /proc/sys/vm/drop_caches\""
 
 # Color toys aliases
 alias bloks="~/.color-toys/bloks"
@@ -137,3 +140,5 @@ alias pipes2="~/.color-toys/pipes2"
 alias pipes2-slim="~/.color-toys/pipes2-slim"
 
 export PATH=$HOME/.npm-packages/bin:$PATH
+# GPG Dialog
+export GPG_TTY=$(tty)

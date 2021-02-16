@@ -6,16 +6,16 @@
 
 <p align="center">
   <a href="#rice_scene--setup">
-    <img width="120px" style="padding: 0 10px;" src="https://i.ibb.co/b5DYRxb/setup.png"/>
+    <img width="120px" style="padding: 0 10px;" src="https://i.ibb.co/b2VzWrg/setup.png"/>
   </a>
   <a href="https://github.com/owl4ce/dotfiles/wiki/Keybinds">
-    <img width="120px" style="padding: 0 10px;" src="https://i.ibb.co/VVc5S9d/keybinds.png"/>
+    <img width="120px" style="padding: 0 10px;" src="https://i.ibb.co/Fgpgc2C/keybinds.png"/>
   </a>
-  <a href="https://www.deviantart.com/owl4ce/gallery/76024204/joyful-desktop-v3">
-    <img width="120px" style="padding: 0 10px;" src="https://i.ibb.co/C1sdMw9/gallery.png"/>
+  <a href="https://deviantart.com/owl4ce/gallery/76024204/joyful-desktop-v3">
+    <img width="120px" style="padding: 0 10px;" src="https://i.ibb.co/ZKTbkRy/gallery.png"/>
   </a>
-  <a href="#memo--notes">
-    <img width="120px" style="padding: 0 10px;" src="https://i.ibb.co/g75Z25g/notes.png"/>
+  <a href="#user-configuration">
+    <img width="120px" style="padding: 0 10px;" src="https://i.ibb.co/RznJp0s/user-conf.png"/>
   </a>
 </p>
 
@@ -23,7 +23,7 @@
 ### :octocat: Hi there! Thanks for visiting! <img alt="" align="right" src="https://badges.pufler.dev/visits/owl4ce/dotfiles?style=flat-square&label=&color=fa74b2&logo=GitHub&logoColor=white&labelColor=373e4d"/>
 
 <a href="https://github.com/owl4ce/dotfiles/releases/tag/3.1">
-  <img src="https://user-images.githubusercontent.com/53987136/105129801-70846680-5b18-11eb-95b4-2794c679a68d.png" alt="owl4ce/dotfiles.minimal" align="right" width="400px"/>
+  <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/072e191f-a0a5-4be2-bc7a-55eb140b254f/dednsbl-fb9e8515-7350-449c-86ad-a6486750f6dc.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvMDcyZTE5MWYtYTBhNS00YmUyLWJjN2EtNTVlYjE0MGIyNTRmXC9kZWRuc2JsLWZiOWU4NTE1LTczNTAtNDQ5Yy04NmFkLWE2NDg2NzUwZjZkYy5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.njiKkfQ-ZufdwgSFn_y-KsGhGdtJqVi-ew_bnstSdbc" alt="owl4ce/dotfiles.minimal" align="right" width="400px"/>
 </a>
 
 This is my personal configuration for my favorite openbox window manager and some applications too.
@@ -32,15 +32,15 @@ I hope you understand everything here. :wink:
 
 Here are some details about my setup
 - **Window Manager**               • [Openbox](http://openbox.org/wiki/Main_Page) :art: 4 changable mode!
-- **Display Manager**              • [SLiM](https://wiki.archlinux.org/index.php/SLiM) :blossom: beautiful UI! <kbd>deprecated</kbd>
-- **Shell**                        • [Zsh](https://wiki.archlinux.org/index.php/zsh) :shell: with [oh my zsh](https://github.com/ohmyzsh/ohmyzsh) framework! <kbd>optional</kbd>
-- **Terminal**                     • [URxvt](https://wiki.archlinux.org/index.php/Rxvt-unicode), [Termite](https://wiki.archlinux.org/index.php/Termite) <kbd>available</kbd>
+- **Display Manager**              • [SLiM](https://github.com/iwamatsu/slim) :blossom: beautiful UI! <kbd>deprecated</kbd>
+- **Shell**                        • [Zsh](https://www.zsh.org/) :shell: with [oh my zsh](https://github.com/ohmyzsh/ohmyzsh) framework! <kbd>optional</kbd>
+- **Terminal**                     • [URxvt](http://software.schmorp.de/pkg/rxvt-unicode.html), [Termite](https://github.com/thestinger/termite) <kbd>available</kbd>
 - **Openbox Menu**                 • [Obmenu-generator](https://github.com/trizen/obmenu-generator)
-- **Panel**                        • [Tint2](https://wiki.archlinux.org/index.php/Tint2) :shaved_ice: material icon font!
+- **Panel**                        • [Tint2](https://gitlab.com/o9000/tint2) :shaved_ice: material icon font!
 - **Compositor**                   • [Picom](https://github.com/yshui/picom) :doughnut: rounded corners!
-- **Notify Daemon**                • [Dunst](https://wiki.archlinux.org/index.php/Dunst) :leaves: minimalism!
+- **Notify Daemon**                • [Dunst](https://github.com/dunst-project/dunst) :leaves: minimalism!
 - **Application Launcher**         • [Rofi](https://github.com/davatorium/rofi) :rocket: blazing fast!
-- **File Manager**                 • [Thunar](https://wiki.archlinux.org/index.php/Thunar) :bookmark: customized sidebar & icon!
+- **File Manager**                 • [Thunar](https://github.com/xfce-mirror/thunar) :bookmark: customized sidebar & icon!
 - **GUI & CLI IDE**                • [Geany](https://www.geany.org/), [Neovim](https://neovim.io/)
 
 ## :gift: Changelogs <img alt="" align="right" src="https://img.shields.io/github/repo-size/owl4ce/dotfiles?style=flat-square&label=Repo%20Size&color=cf8ef4&labelColor=373e4d"/>
@@ -77,9 +77,9 @@ Here are some details about my setup
 <details open>
   <summary><strong>v3.1</strong></summary>
   
-  - **Screenshot Script**: Rounded corners & Quality
+  - **Screenshot Script**: Rounded corners, quality, shadows.
   - Terminal UI improvements, particularly font size
-  - Bug fixes and improvements <kbd>keep looking</kbd>
+  - Bug fixes and improvements [<kbd>keep looking</kbd>](https://github.com/owl4ce/dotfiles/commits/main)
   - Rounded picom as default
   - New Wallpapers
   
@@ -115,90 +115,93 @@ This is how to install these dotfiles for automatic settings OpenboxWM custom en
 </details>
 
 ### Installation (dependencies)
-> Please adjust your choice about dependencies below, this is my complete setup as I use single OpenboxWM with multimedia application I use.
-> #### Detailed environment
+> Adjust your choice about dependencies below, this is my complete setup as I use single OpenboxWM with multimedia application that I use.
+>   
+> **Detailed environment**  
 > Please refer to [wiki/Detailed-Environment](https://github.com/owl4ce/dotfiles/wiki/Detailed-Environment).
 
   <details open>
   <summary><strong>Debian & Ubuntu (and all based distributions)</strong></summary>
   
-  ```bash
-  $ sudo apt install rsync python psmisc wireless-tools openbox obconf alsa-utils brightnessctl nitrogen dunst tint2 gsimplecal rofi lxappearance qt5-style-plugins lxpolkit xautolock rxvt-unicode xclip scrot thunar thunar-archive-plugin thunar-media-tags-plugin thunar-volman ffmpegthumbnailer tumbler w3m w3m-img geany viewnior mpv mpd mpc ncmpcpp pavucontrol parcellite neofetch htop imagemagick ffmpeg playerctl xsettingsd
-  ```
+   ```bash
+   $ sudo apt install rsync python psmisc imagemagick ffmpeg wireless-tools openbox alsa-utils brightnessctl nitrogen dunst tint2 gsimplecal rofi qt5-style-plugins lxpolkit xautolock rxvt-unicode xclip scrot thunar thunar-archive-plugin thunar-media-tags-plugin thunar-volman ffmpegthumbnailer tumbler viewnior mpv mpd mpc ncmpcpp pavucontrol parcellite neofetch w3m w3m-img htop playerctl xsettingsd
+   ```
 
   </details>
   
   <details>
   <summary>oh-my-zsh & plugins <kbd>optional</kbd></summary>
   
-  - ```bash
-    $ sudo apt install zsh
-    ```
-  - ```bash
-    $ chsh -s `which zsh` # Change default shell to zsh for current user
-    ```
-  - ```bash
-    $ sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
-    ```
-  - ```bash
-    $ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
-    ```
-  - ```bash
-    $ git clone https://github.com/zsh-users/zsh-autosuggestions.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
-    ```
-  - [zsh-completions](https://software.opensuse.org/download.html?project=shells%3Azsh-users%3Azsh-completions&package=zsh-completions)
-  
+   ```bash
+   $ sudo apt install zsh
+   ```
+   ```bash
+   $ chsh -s `which zsh` # Change default shell to zsh for current user
+   ```
+   ```bash
+   $ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+   ```
+   ```bash
+   $ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+   ```
+   ```bash
+   $ git clone https://github.com/zsh-users/zsh-autosuggestions.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+   ```
+   ```bash
+   $ git clone https://github.com/zsh-users/zsh-completions.git ${ZSH_CUSTOM:=~/.oh-my-zsh/custom}/plugins/zsh-completions
+   ```
+    
   </details>
   
   <details>
   <summary>picom</summary>
     
-  - ```bash
-    $ sudo apt install libxext-dev libxcb1-dev libxcb-damage0-dev libxcb-xfixes0-dev libxcb-shape0-dev libxcb-render-util0-dev libxcb-render0-dev libxcb-randr0-dev libxcb-composite0-dev libxcb-image0-dev libxcb-present-dev libxcb-xinerama0-dev libxcb-glx0-dev libpixman-1-dev libdbus-1-dev libconfig-dev libgl1-mesa-dev  libpcre2-dev  libevdev-dev uthash-dev libev-dev libx11-xcb-dev
-    ```
-  - ```bash
-    $ git clone https://github.com/yshui/picom.git && cd picom/
-    ```
-  - ```bash
-    $ git submodule update --init --recursive
-    ```
-  - ```bash
-    $ meson --buildtype=release . build
-    ```
-  - ```bash
-    $ ninja -C build
-    ```
-  - ```bash
-    $ ninja -C build install
-    ```
+   ```bash
+   $ sudo apt install libxext-dev libxcb1-dev libxcb-damage0-dev libxcb-xfixes0-dev libxcb-shape0-dev libxcb-render-util0-dev libxcb-render0-dev libxcb-randr0-dev libxcb-composite0-dev libxcb-image0-dev libxcb-present-dev libxcb-xinerama0-dev libxcb-glx0-dev libpixman-1-dev libdbus-1-dev libconfig-dev libgl1-mesa-dev  libpcre2-dev  libevdev-dev uthash-dev libev-dev libx11-xcb-dev
+   ```
+   ```bash
+   $ git clone https://github.com/yshui/picom.git && cd picom/
+   ```
+   ```bash
+   $ git submodule update --init --recursive
+   ```
+   ```bash
+   $ meson --buildtype=release . build
+   ```
+   ```bash
+   $ ninja -C build
+   ```
+   ```bash
+   $ ninja -C build install
+   ```
 
   </details>
 
   <details>
   <summary>obmenu-generator</summary>
   
-  > I haven't tested it yet.
+   > I haven't tested it yet.
   
-  - ```bash
-    $ sudo su
-     ```
-  - ```bash
-    echo 'deb http://download.opensuse.org/repositories/home:/Head_on_a_Stick:/obmenu-generator/Debian_10/ /' > /etc/apt/sources.list.d/home:Head_on_a_Stick:obmenu-generator.list
-    ```
-  - ```bash
-    wget -nv https://download.opensuse.org/repositories/home:Head_on_a_Stick:obmenu-generator/Debian_10/Release.key -O Release.key
-    ```
-  - ```bash
-    apt-key add - < Release.key
-    ```
-  - ```bash
-    apt update
-    ```
-  - ```bash
-    apt install obmenu-generator libgtk2-perl
-    ```
+   ```bash
+   $ sudo su
+   ```
+   ```bash
+   echo 'deb http://download.opensuse.org/repositories/home:/Head_on_a_Stick:/obmenu-generator/Debian_10/ /' > /etc/apt/sources.list.d/home:Head_on_a_Stick:obmenu-generator.list
+   ```
+   ```bash
+   wget -nv https://download.opensuse.org/repositories/home:Head_on_a_Stick:obmenu-generator/Debian_10/Release.key -O Release.key
+   ```
+   ```bash
+   apt-key add - < Release.key
+   ```
+   ```bash
+   apt update
+   ```
+   ```bash
+   apt install obmenu-generator libgtk2-perl
+   ```
     
-  - [See Installation from Git](https://github.com/trizen/obmenu-generator/blob/master/INSTALL.md)
+   [See Installation from Git](https://github.com/trizen/obmenu-generator/blob/master/INSTALL.md)
   
   </details>
   
@@ -207,32 +210,35 @@ This is how to install these dotfiles for automatic settings OpenboxWM custom en
   <details open>
   <summary><strong>Arch Linux (and all based distributions)</strong></summary>
   
-  > Make sure your **AUR Helper** is [`yay`](https://github.com/Jguer/yay) or [`paru`](https://github.com/Morganamilo/paru).
+   > Make sure your **AUR Helper** is [`yay`](https://github.com/Jguer/yay) or [`paru`](https://github.com/Morganamilo/paru).
   
-  ```bash
-  $ yay -S rsync python psmisc wireless_tools openbox obconf alsa-utils brightnessctl nitrogen dunst tint2 gsimplecal rofi lxappearance qt5-styleplugins lxsession xautolock rxvt-unicode-patched xclip scrot thunar thunar-archive-plugin thunar-media-tags-plugin thunar-volman ffmpegthumbnailer tumbler w3m geany viewnior mpv mpd mpc ncmpcpp pavucontrol parcellite neofetch htop picom-git obmenu-generator gtk2-perl imagemagick ffmpeg playerctl xsettingsd
-  ```
+   ```bash
+   $ yay -S rsync python psmisc imagemagick ffmpeg wireless_tools openbox alsa-utils brightnessctl nitrogen dunst tint2 gsimplecal rofi qt5-styleplugins lxsession xautolock rxvt-unicode-patched xclip scrot thunar thunar-archive-plugin thunar-media-tags-plugin thunar-volman ffmpegthumbnailer tumbler viewnior mpv mpd mpc ncmpcpp pavucontrol parcellite neofetch w3m htop picom-git obmenu-generator gtk2-perl playerctl xsettingsd
+   ```
 
   </details>
   
   <details>
   <summary>oh-my-zsh & plugins <kbd>optional</kbd></summary>
   
-  - ```bash
-    $ sudo pacman -S zsh zsh-completions
-    ```
-  - ```bash
-    $ chsh -s `which zsh` # Change default shell to zsh for current user
-    ```
-  - ```bash
-    $ sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
-    ```
-  - ```bash
-    $ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
-    ```
-  - ```bash
-    $ git clone https://github.com/zsh-users/zsh-autosuggestions.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
-    ```
+   ```bash
+   $ sudo pacman -S zsh
+   ```
+   ```bash
+   $ chsh -s `which zsh` # Change default shell to zsh for current user
+   ```
+   ```bash
+   $ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+   ```
+   ```bash
+   $ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+   ```
+   ```bash
+   $ git clone https://github.com/zsh-users/zsh-autosuggestions.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+   ```
+   ```bash
+   $ git clone https://github.com/zsh-users/zsh-completions.git ${ZSH_CUSTOM:=~/.oh-my-zsh/custom}/plugins/zsh-completions
+   ```
   
   </details>
 
@@ -241,28 +247,29 @@ This is how to install these dotfiles for automatic settings OpenboxWM custom en
   <details>
   <summary><strong>Another Linux Distribution</strong></summary>
   
-  Customize/port dependencies yourself!  
-  **For example**:  
-  - [Gentoo](https://packages.gentoo.org/)
-  - [Void](https://voidlinux.org/packages/)
+   Customize/port dependencies yourself!  
+   
+   **For example**  
+   - [Gentoo](https://packages.gentoo.org/)
+   - [Void](https://voidlinux.org/packages/)
   
-  If it's not there, compile it manually from git source code or from elsewhere.
+   If it's not there, compile it manually from git source code or from elsewhere.
   
   </details
   
   <br>
     
-  **Optional**: [betterdiscord](https://betterdiscord.net/), [gimp](https://www.gimp.org/), [nano](https://www.nano-editor.org/) + [nano syntax highlighting](https://github.com/scopatz/nanorc), [neovim](https://neovim.io/), [slim](https://wiki.archlinux.org/index.php/SLiM), [spotify](https://www.spotify.com/us/download/linux/), [termite](https://www.compuphase.com/software_termite.htm), [xfce4-power-manager](https://docs.xfce.org/xfce/xfce4-power-manager/getting-started).
+  **Optional**: [betterdiscord](https://betterdiscord.net/), [geany](https://geany.org/) + [geany plugins](https://plugins.geany.org/), [gimp](https://www.gimp.org/), [lxappearance](https://wiki.lxde.org/en/LXAppearance), [nano](https://www.nano-editor.org/) + [nano syntax highlighting](https://github.com/scopatz/nanorc), [neovim](https://neovim.io/), [obconf](http://openbox.org/wiki/ObConf:About), [slim](https://wiki.archlinux.org/index.php/SLiM), [spotify](https://www.spotify.com/us/download/linux/), [termite](https://www.compuphase.com/software_termite.htm), [xfce4-power-manager](https://docs.xfce.org/xfce/xfce4-power-manager/getting-started).
   
-  **Suggested replacement command**:
+  **Suggested replacement commands**
   - `ls` ➜ [`exa`](https://github.com/ogham/exa)  
   
     [`~/.zshrc`](./.zshrc)  
     ```cfg    
     ...
     
-    127 alias ls="exa -lgh --icons --group-directories-first"
-    128 alias la="exa -lgha --icons --group-directories-first"
+    130 alias ls="exa -lgh --icons --group-directories-first"
+    131 alias la="exa -lgha --icons --group-directories-first"
     
     ...
     ```
@@ -273,7 +280,7 @@ This is how to install these dotfiles for automatic settings OpenboxWM custom en
     ```cfg    
     ...
     
-    140 export BAT_THEME="base16"
+    146 export BAT_THEME="base16"
     ```
 
 ### Installation (dotfiles)
@@ -282,40 +289,52 @@ This is how to install these dotfiles for automatic settings OpenboxWM custom en
   <summary><strong>Most of .files</strong></summary>
   
    You can clone or download it as a zip. After that put all files in the **dotfiles** folder to user's home directory.
-   > I recommend with rsync
-   - ```bash
-     $ git clone https://github.com/owl4ce/dotfiles.git && cd dotfiles/
-     ```
-   - ```bash
-     $ rsync -avxHAXP --exclude '.git*' .* ~/
-     ```
-     > -a  : all files, with permissions, etc..  
-     > -v  : verbose, mention files  
-     > -x  : stay on one file system  
-     > -H  : preserve hard links (not included with -a)  
-     > -A  : preserve ACLs/permissions (not included with -a)  
-     > -X  : preserve extended attributes (not included with -a)  
-     > -P  : show progress  
+   ```bash
+   $ git clone https://github.com/owl4ce/dotfiles.git && cd dotfiles/
+   ```
+   
+   I recommend with rsync.
+   ```bash
+   $ rsync -avxHAXP --exclude '.git*' .* ~/
+   ```
+   > **Explanation**
+   > | Options   | Function                                            |
+   > |:---------:|-----------------------------------------------------|
+   > | -a        | all files, with permissions, etc..                  |
+   > | -v        | verbose, mention files                              |
+   > | -x        | stay on one file system                             |
+   > | -H        | preserve hard links (not included with -a)          |
+   > | -A        | preserve ACLs/permissions (not included with -a)    |
+   > | -X        | preserve extended attributes (not included with -a) |
+   > | -P        | show progress                                       |
+   > | --exclude | exclude files matching PATTERN                      |
+   >
+   > **Differences**  
+   > - `cp` is for duplicating stuff and by default only ensures files have unique full path names.
+   > - `rsync` is for synchronising stuff and uses the size and timestamp of files to decide if they should be replaced. It has many more options and capabilities than `cp`.
+   >
+   >   
+   > I recommend not deleting **dotfiles** folder after cloning from this repository, because to make upgrades easier. Read the [update](#update) section.
   
   </details>
 
   <details open>
   <summary><strong>Icons</strong></summary>
 
-   - ```bash
-     $ cd ~/.icons && tar -Jxvf Papirus-Custom.tar.xz && tar -Jxvf Papirus-Dark-Custom.tar.xz
-     ```
-   - ```bash
-     $ sudo ln -s ~/.icons/Papirus-Custom /usr/share/icons/Papirus-Custom
-     ```
-   - ```bash
-     $ sudo ln -s ~/.icons/Papirus-Dark-Custom /usr/share/icons/Papirus-Dark-Custom
-     ```
-     > **Why I need to link icons to user system resources?**  
-       That's needed by dunst in order to display most of icon from notification that spawned by application.
-     >
-     > **Why not just move it directly to user system resources?**  
-       Actually it's up to you, but I recommend sticking to `~/.icons` plus link to `/usr` because I'm using [Arch on top of other linux distributions](https://github.com/owl4ce/archroot) with same homedir. More effective than copying icons to both roots.
+   ```bash
+   $ cd ~/.icons && tar -Jxvf Papirus-Custom.tar.xz && tar -Jxvf Papirus-Dark-Custom.tar.xz
+   ```
+   ```bash
+   $ sudo ln -s ~/.icons/Papirus-Custom /usr/share/icons/Papirus-Custom
+   ```
+   ```bash
+   $ sudo ln -s ~/.icons/Papirus-Dark-Custom /usr/share/icons/Papirus-Dark-Custom
+   ```
+   > **Why I need to link icons to user system resources?**  
+     That's needed by dunst in order to display most of icon from notification that spawned by application.
+   >   
+   > **Why not just move it directly to user system resources?**  
+     Actually it's up to you, but I recommend sticking to `~/.icons` plus link to `/usr` because I'm using [Arch on top of other linux distributions](https://github.com/owl4ce/archroot) with same homedir. More effective than copying icons to both roots.
      
   </details>
 
@@ -344,14 +363,42 @@ This is how to install these dotfiles for automatic settings OpenboxWM custom en
   
 ### The step you are waiting for
 The final step is login into openbox-session, basically login from display manager you use such as lightdm, gdm, etc. If you are using `~/.xinitrc`, simply add
-- **Systemd Linux Distribution**
-  ```cfg
-  exec openbox-session
-  ```
-- **Non-Systemd Linux Distribution**
-  ```cfg
-  exec dbus-launch --exit-with-session openbox-session
-  ```
+
+**Systemd Linux Distribution**  
+```cfg
+exec openbox-session
+```
+
+**Non-Systemd Linux Distribution**  
+```cfg
+exec dbus-launch --exit-with-session openbox-session
+```
+
+---
+
+### Update
+Since I suggested using rsync from start, the easiest way is to list the files that will not be updated to avoid changing personal files with files in this repository. First, update local repository with git repository.
+```bash
+$ cd dotfiles/ && git pull
+```
+Then list the files excluded by rsync. For example,  
+`~/rsync_exfiles`
+```cfg
+1 .git*
+2 .lyrics
+3 mpd.state
+4 current-track
+5 .zshrc
+6 .nanorc
+7 nvim
+8 mpv
+
+...
+```
+and whatever the file is. Next, of course is rsync.
+```bash
+$ rsync -avxHAXP --exclude-from ~/rsync_exfiles .* ~/
+```
 
 ---
 
@@ -380,8 +427,7 @@ The final step is login into openbox-session, basically login from display manag
     
     <br>
     
-    <p align="center"><a href=""><img src="https://i.ibb.co/55fvV30/2021-02-02-153019-1366x768-scrot.png" alt="brave.thumbnail"/></a></p>
-    <p align="center"><a href="https://brave.com/">Brave</a></p>
+    <p align="center"><a href="https://brave.com/"><img src="https://i.ibb.co/55fvV30/2021-02-02-153019-1366x768-scrot.png" alt="brave.thumbnail"/></a></p>
 
   </details>
   
@@ -486,32 +532,34 @@ The final step is login into openbox-session, basically login from display manag
    98
    99 INT_ETH="enp4s0"
   100 INT_WIFI="wlp3s0"
-  101
-  102 TEMP_DEV="thermal_zone0"
-  103
-  104 #-------------------------------------------------------------------------#
-  105 # SCREENSHOT OPTIONS                                                      #
-  106 #-------------------------------------------------------------------------#
-  107 # This will create "Screenshots" folder inside SAVE_DIR                   #
-  108 #-------------------------------------------------------------------------#
-  109
+  101 TEMP_DEV="thermal_zone0"
+  102
+  103 #-------------------------------------------------------------------------#
+  104 # SCREENSHOT OPTIONS                                                      #
+  105 #-------------------------------------------------------------------------#
+  106 # This will create "Screenshots" folder inside SAVE_DIR                   #
+  107 #-------------------------------------------------------------------------#
+  108
+  109 TIMER_SEC="5"
   110 SAVE_DIR="$HOME/Pictures"
   111 FRAME_COLOR="#ffffff" # RGBA supported
-  112 TIMER_SEC="5"
-  113 QUALITY="100" # 1-100, high value means high size low compression
-  114
-  115 #-------------------------------------------------------------------------#
-  116 # XAUTOLOCK - 5 means 5 minutes                                           #
+  112 COPY_FRAMED="yes" # Copy the latest framed screenshot to clipboard
+  113 OPEN_FRAMED="no" # Open after framed screenshot with viewnior (if exist)
+  114 FRAMED_SHADOW_OPACITY="25" # 0-100, high value means thick shadows
+  115 QUALITY="100" # 1-100, high value means high size with low compression
+  116
   117 #-------------------------------------------------------------------------#
-  118 
-  119 AUTOLOCK_MINUTE="5"
-  120
-  121 #-------------------------------------------------------------------------#
-  122 # BRIGHTNESS & AUDIO (pulseaudio) VOLUME STEPS LEVEL                      #
+  118 # XAUTOLOCK - 5 means 5 minutes                                           #
+  119 #-------------------------------------------------------------------------#
+  120 
+  121 AUTOLOCK_MINUTE="5"
+  122
   123 #-------------------------------------------------------------------------#
-  124
-  125 AUDIO_STEPS="5" # Real value
-  126 BRIGHTNESS_STEPS="5" # Percentage, 5 means 5%
+  124 # BRIGHTNESS & AUDIO (pulseaudio) VOLUME STEPS LEVEL                      #
+  125 #-------------------------------------------------------------------------#
+  126
+  127 AUDIO_STEPS="5" # Real value
+  128 BRIGHTNESS_STEPS="5" # Percentage, 5 means 5%
   ```
   > **TEMP_DEV**: Check here
   > ```bash
@@ -574,15 +622,14 @@ The final step is login into openbox-session, basically login from display manag
     ...
 
     9  # there was once a pulseaudio here
-    10 [[ "$(pstree)" != *"pulseaudio"* ]] && \
-    11 pulseaudio --start --log-target=syslog &> /dev/null &
+    10 pulseaudio --start --log-target=syslog &> /dev/null &
 
     ...
     ```
     
     Or if you use [pipewire](https://github.com/PipeWire/pipewire) as pulseaudio.
   - **Pipewire as Pulseaudio**
-    > Realtime and low-latency. More details at [ArchWiki](https://wiki.archlinux.org/index.php/PipeWire#PulseAudio_clients) / [Gentoo Wiki](https://wiki.gentoo.org/wiki/Pipewire#Replacing_PulseAudio).  
+    > More details at [ArchWiki](https://wiki.archlinux.org/index.php/PipeWire#PulseAudio_clients) / [Gentoo Wiki](https://wiki.gentoo.org/wiki/Pipewire#Replacing_PulseAudio).  
     >  Make sure pulseaudio is uninstalled or disable autospawn.  
     > `/etc/pulse/client.conf`
     > ```cfg
@@ -597,8 +644,7 @@ The final step is login into openbox-session, basically login from display manag
     ...
 
     9  # there was once a pulseaudio here
-    10 [[ "$(pstree)" != *"pipewire"* ]] && \
-    11 pipewire &> /dev/null &
+    10 pipewire &> /dev/null &
     
     ...
     ```
@@ -654,13 +700,13 @@ The final step is login into openbox-session, basically login from display manag
 
 ## :memo:  Notes
 ### <p align="center">Color Scheme</p>
-<p align="center"><a href="#color-scheme"><img src="https://i.ibb.co/sJ5tzXP/color-scheme.png" alt="owl4ce.color-scheme" height="60%" width="100%"></a></p>
+<p align="center"><a href="#color-scheme"><img src="https://i.ibb.co/XDjndMJ/color-scheme.png" alt="owl4ce.color-scheme" height="60%" width="100%"></a></p>
 
 ### <p align="center">Why use this setup?</p>
-<p align="center"><a href="#why-use-this-setup"><img src="https://i.ibb.co/FhYF0zf/ps-mem.png" alt="owl4ce.ps_mem"></a></p>
+<p align="center"><a href="#why-use-this-setup"><img src="https://i.ibb.co/v44N9jt/2021-02-06-165824-378x330-scrot.png" alt="owl4ce.ps_mem"></a></p>
 
 ### <p align="center">:love_letter:</p>
-<p align="center">Please don't underrate, I've configured them all since April 2020 and have been stuDYING them since <a href="https://github.com/owl4ce/dotfiles/wiki/My-Linux-Ricing-Journey">October 2019</a>. Awesome open-source. If you support it, star it or make a PR. Or if there is a problem with configuration you can make an issue here.</p><p align="center"><b>Thank you!</b></p><p align="center">Feel free to modify..</p>
+<p align="center">Please don't underrate, I've configured them all since April 2020 and have been stuDYING them since <a href="https://github.com/owl4ce/dotfiles/wiki/My-Linux-Ricing-Journey">October 2019</a>. Awesome open-source. If you support it, star it or make a PR. Or if there is a problem with configuration you can make an issue here.</p><p align="center"><b>Thank you!</b></p><p align="center">Feel free to modify.. under <a href="./LICENSE">GPL-3.0</a></p>
 
 [![Stargazers over time](https://starchart.cc/owl4ce/dotfiles.svg)](https://starchart.cc/owl4ce/dotfiles)
 
@@ -671,28 +717,32 @@ The final step is login into openbox-session, basically login from display manag
   - [Fikri Omar](https://github.com/fikriomar16)
   - [Rizqi Nur Assyaufi](https://github.com/bandithijo)
   - [Muktazam Hasbi Ashidiqi](https://github.com/reorr)
+  - [Galih Wisnuaji](https://github.com/nekonako)
   - [Ghani Rafif](https://github.com/ekickx)
   - [Aditya Shakya](https://github.com/adi1090x)
+  - ?
 
 - **Knowledge and other resources**
-  - [Openbox/Wiki](http://openbox.org/wiki/Help:Themes)
-  - [Pure-Bash-Bible](https://github.com/dylanaraps/pure-bash-bible)
-  - [Color-Scripts](https://github.com/stark/Color-Scripts)
-  - [Notify-send.sh](https://github.com/vlevit/notify-send.sh)
-  - [Networkmanager_dmenu](https://github.com/firecat53/networkmanager-dmenu)
+  - [Wiki @ Openbox](http://openbox.org/wiki/Help:Themes)
+  - [Pango Markup @ Gnome](https://developer.gnome.org/pango/stable/pango-Markup.html)
+  - [Pure Bash Bible](https://github.com/dylanaraps/pure-bash-bible)
+  - [Stark's Color Scripts](https://github.com/stark/Color-Scripts)
+  - [Notify Send (bash)](https://github.com/vlevit/notify-send.sh)
+  - [NetworkManager Dmenu](https://github.com/firecat53/networkmanager-dmenu)
+  - [Showing Album Cover in Ncmpcpp](https://marcocheung.wordpress.com/2015/08/09/showing-album-cover-in-ncmpcpp/)
+  - [Complete List of GitHub Markdown Emoji Markup](https://gist.github.com/rxaviers/7360908)
   - Many GNU/Linux & Unix forums.
   
-- **Contributor**
+- **Contributors**
   - [Ekaunt](https://github.com/ekaunt) - [Better promptmenu](https://github.com/owl4ce/dotfiles/pull/2)
   - [HopeBaron](https://github.com/HopeBaron) - [Termite config](https://github.com/owl4ce/dotfiles/pull/4)
   - [...](https://github.com/owl4ce/dotfiles/graphs/contributors)
   
-- **Software**
-  - [Bash](https://www.gnu.org/software/bash/)
-  - [Geany](https://www.geany.org/)
-  - [Gimp](https://www.gimp.org/)
-  - [Gpick](http://www.gpick.org/)
-  - [Oomox](https://github.com/themix-project/oomox)
+- **Softwares**
+  - [Geany - The Flyweight IDE](https://www.geany.org/)
+  - [GIMP - GNU Image Manipulation Program](https://www.gimp.org/)
+  - [Gpick - Advanced Color Picker](http://www.gpick.org/)
+  - [Themix - GUI Theme Designer](https://github.com/themix-project/oomox)
   - etc.
 
 - **Our local linux community [Linuxer Desktop Art](https://web.facebook.com/groups/linuxart), [@dotfiles_id](https://t.me/dotfiles_id), and [r/unixporn](https://www.reddit.com/r/unixporn/).**
